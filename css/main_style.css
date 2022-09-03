@@ -19,7 +19,7 @@
 }
 
 body {
-  /* display: grid; */
+  display: grid;
   align-content: center;
   gap: var(--gap);
   width: 100%;
