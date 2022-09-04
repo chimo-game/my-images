@@ -6,18 +6,6 @@
   box-sizing: border-box;
 }
 
-/* start .marquee */
-:root {
-  --color-text: navy;
-  --color-bg: papayawhip;
-  --color-bg-accent: #ecdcc0;
-  --size: clamp(10rem, 1rem + 40vmin, 30rem);
-  --gap: calc(var(--size) / 14);
-  --duration: 60s;
-  --scroll-start: 0;
-  --scroll-end: calc(-100% - var(--gap));
-}
-
 body {
   display: grid;
   align-content: center;
@@ -70,7 +58,8 @@ body {
   align-items: center;
   padding: 12px !important;
   margin: 20px auto;
-  background-color: #ffe900;
+  font-size: 12px;
+  font-weight: 600;
   text-decoration: none;
   color: #fbfdfb;
   border: none !important;
@@ -79,6 +68,7 @@ body {
 
 .text_box .game_title {
   width: 50%;
+  font-weight: 700;
   justify-content: center;
   background-color: crimson !important;
   border: 1px solid crimson;
