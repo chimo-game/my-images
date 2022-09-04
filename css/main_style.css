@@ -6,20 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  display: grid;
-  align-content: center;
-  gap: var(--gap);
-  width: 100%;
-  min-height: 100vh;
-  font-size: 1rem;
-  line-height: 1;
-  color: var(--color-text);
-  background-color: var(--color-bg);
-  background-color: rgb(0, 0, 0);
-  color: #fff;
-}
-
 @media only screen and (max-width: 800px) {
   html {
     font-size: 50%;

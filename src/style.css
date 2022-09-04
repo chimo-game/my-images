@@ -253,15 +253,15 @@
 }
 
 body {
-  /* display: grid;
+  display: grid;
   align-content: center;
   gap: var(--gap);
   width: 100%;
-  /* min-height: 100vh; */
-  /* font-size: 1.2rem;
+  min-height: 100vh;
+  font-size: 1.2rem;
   line-height: 1.5;
   color: var(--color-text);
-  background-color: var(--color-bg); */ */
+  background-color: var(--color-bg);
 }
 
 .marquee {
