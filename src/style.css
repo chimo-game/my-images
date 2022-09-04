@@ -1,5 +1,5 @@
 :root {
-  --color-text: rgb(223, 223, 223);
+  --color-text: #fff;
   --color-bg: #000;
   --color-bg-accent: #5d2fdf;
   --size: clamp(2rem, 1rem + 40vmin, 10rem);
@@ -11,11 +11,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-text: rgb(223, 223, 223);
+    --color-text: #fff;
     --color-bg: #000;
     --color-bg-accent: #5d2fdf;
     --size: clamp(2rem, 1rem + 40vmin, 10rem);
-    --gap: calc(var(--size) / 14);
+    --gap: calc(var(--size) / 6);
     --duration: 60s;
     --scroll-start: 0;
     --scroll-end: calc(-100% - var(--gap));
@@ -40,7 +40,7 @@ body {
 }
 
 .heading a {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--color-text);
 }
