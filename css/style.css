@@ -381,7 +381,7 @@ h4,h6{
 .game_section_2 {
   width: 100%;
   float: left;
-  padding-top: 50px;
+  padding-top: 0;
   /* padding-bottom: 90px; */
 }
 

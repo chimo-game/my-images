@@ -1,3 +1,4 @@
+
 /*
  JS to toggle scroll axis styles
 */
@@ -12,3 +13,5 @@ control.addEventListener("click", () => {
     marquee.classList.toggle("marquee--vertical")
   );
 });
+
+
