@@ -91,7 +91,8 @@ nav ul li a:visited {
 }
 nav ul li a:hover,
 nav ul li a:visited:hover {
-  background: #2581dc;
+  /* background: #2581dc; */
+  background: #5d2fdf;;
   color: #ffffff;
 }
 nav ul li a:not(:only-child):after,
