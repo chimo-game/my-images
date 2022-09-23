@@ -276,17 +276,47 @@ h6 a {
   opacity: 1;
 }
 
+a.read__ {
+  text-transform: uppercase;
+  display:inline-block;
+  margin-bottom:20px;
+  padding: 10px;
+  color:#fff;
+  border: #fff solid;
+  border-radius: 50px
+
+}
+
+.read__:hover{
+  padding: 10px;
+  font-size: 14px;
+  color:#fff;
+  border: #fff solid;
+  border-radius: 50px
+}
+
 h3.read__box {
   color: #fff;
+  text-align: left;
   font-size: 12px;
 text-transform: uppercase;
 }
 
 h3.txt__box {
   color: #fff;
+  text-align: left;
   border: #fff solid;
   padding: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
   margin-bottom: 15px;
+}
+
+h1.about_ttile {
+    color: #fff;
+  text-align: left;
+  font-size: 16px;
+text-transform: uppercase;
 }
 
 button:focus {
@@ -309,7 +339,26 @@ p {
 }
 
 a {
-  color: #222222;
+  color: #ffffff;
+  text-decoration: none;
+  outline: none !important;
+  
+}
+a.a2{
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  font-size: 14px;
+  color:#fff;
+  border: #fff solid;
+  width: 50%;;
+  border-radius: 50px;
+  text-decoration: none;
+  outline: none !important;
+}
+
+a.a2:hover {
+  color: #5d2fdf;
   text-decoration: none;
   outline: none !important;
 }
