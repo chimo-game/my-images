@@ -237,7 +237,8 @@ h1 {
 }
 
 h2 {
-  font-size: 15px;
+  font-size: 1.1rem;
+  color: #fff;
 }
 
 h3 {
@@ -273,6 +274,19 @@ h6 a {
   color: #212121;
   text-decoration: none !important;
   opacity: 1;
+}
+
+h3.read__box {
+  color: #fff;
+  font-size: 12px;
+text-transform: uppercase;
+}
+
+h3.txt__box {
+  color: #fff;
+  border: #fff solid;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 button:focus {
