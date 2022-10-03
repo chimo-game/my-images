@@ -49,6 +49,10 @@ body {
   background: #262626;
 }
 
+ion-icon {
+  color: #fff;
+}
+
 .brand {
   position: absolute;
   padding-left: 20px;
