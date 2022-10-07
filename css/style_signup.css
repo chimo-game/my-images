@@ -13,6 +13,13 @@ body {
   align-items: center;
   justify-content: center;
   background: #4070f4;
+  background-image: url("https://images.unsplash.com/photo-1596838132731-3301c3fd4317?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: all 200ms linear;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  transition: all 200ms linear;
 }
 .container {
   position: relative;
