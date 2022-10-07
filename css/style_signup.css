@@ -17,8 +17,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 200ms linear;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(6px);
   transition: all 200ms linear;
 }
 .container {
