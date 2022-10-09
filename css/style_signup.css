@@ -111,6 +111,7 @@ form .input-field {
   margin-top: 10px;
   padding: 20px;
   width: 320px;
+  border: 1px solid rgb(209, 209, 209);
   height: 100px;
 }
 #promo {
@@ -121,5 +122,18 @@ form .input-field {
   margin-top: 10px;
   padding: 20px;
   width: 320px;
+  border: 1px solid rgb(209, 209, 209);
   height: 50px;
+}
+.checkbox {
+  display: flex;
+}
+
+.input-field .checkbox {
+  width: 10px;
+  height: 10px;
+  outline: none;
+  border-radius: 8px;
+  padding: 0px 10px;
+  border: 1px solid rgb(209, 209, 209);
 }
