@@ -134,6 +134,6 @@ form .input-field {
   height: 10px;
   outline: none;
   border-radius: 8px;
-  padding: 0px 10px;
+  padding: 0 10px 0 10px;
   border: 1px solid rgb(209, 209, 209);
 }
