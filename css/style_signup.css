@@ -111,3 +111,11 @@ form .input-field {
   width: 320px;
   height: 100px;
 }
+#promo {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  padding: 20px;
+  width: 320px;
+  height: 50px;
+}
