@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "watch:scss":"node-sass -w ./css/style-deposit.scss css/style-deposit.css"  
+  },
+
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
