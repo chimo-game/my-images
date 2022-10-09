@@ -104,6 +104,8 @@ form .input-field {
 }
 
 #message {
+  border-radius: 8px;
+  outline: none;
   position: relative;
   display: block;
   margin-top: 10px;
@@ -112,6 +114,8 @@ form .input-field {
   height: 100px;
 }
 #promo {
+  border-radius: 8px;
+  outline: none;
   position: relative;
   display: block;
   margin-top: 10px;
