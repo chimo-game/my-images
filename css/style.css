@@ -97,7 +97,7 @@ nav ul li a:visited {
 nav ul li a:hover,
 nav ul li a:visited:hover {
   /* background: #2581dc; */
-  background: #5d2fdf;;
+  background: #69bb0c;
   color: #ffffff;
 }
 nav ul li a:not(:only-child):after,
@@ -233,7 +233,6 @@ h6 {
   padding: 28px 0 20px 0;
   font-weight: normal;
   line-height: normal;
-  color: #111111;
   margin: 0;
 }
 
@@ -248,6 +247,7 @@ h2 {
 
 h3 {
   font-size: 18px;
+  color: #fff;
 }
 
 h4 {
@@ -282,13 +282,15 @@ h6 a {
 }
 
 a.read__ {
-  text-transform: uppercase;
-  display:inline-block;
-  margin-bottom:20px;
-  padding: 12px;
-  color:#fff;
-  border: #fff solid;
-  border-radius: 50px
+
+      text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 12px;
+    color: #000;
+    border: #fff solid;
+    border-radius: 50px;
+    background-color: #52b104;
 
 }
 
@@ -593,7 +595,7 @@ button {
   width: 100%;
   float: left;
   font-size: 40px;
-  color: #5d2fdf;
+  color: #52b104;
   font-weight: bold;
   padding-bottom: 20px;
   text-align: center;
@@ -1297,4 +1299,8 @@ select.custom-select::placeholder {
 }
 .client_main {
   padding-bottom: 0px;
+}
+
+span.bonus {
+  color:#fff;
 }

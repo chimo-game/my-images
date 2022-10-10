@@ -73,7 +73,7 @@
 }
 
 #button__block a:nth-child(1) {
-  background-color: #5d2fdf;
+  background-color: #52b104;
 }
 #button__block a:nth-child(2) {
   background-color: #19cf84;
@@ -83,6 +83,6 @@
   margin: 0rem;
   padding: 1rem;
   position: relative;
-  background: #5d2fdf;
+  background: #52b104;
   color: #fff;
 }
