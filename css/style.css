@@ -289,25 +289,17 @@ h6 a {
   opacity: 1;
 }
 
-a.read__ {
+span.read__ {
 
-      text-transform: uppercase;
+    text-transform: uppercase;
     display: inline-block;
     margin-bottom: 20px;
-    padding: 12px;
+    padding: 14px;
     color: #000;
     border: #fff solid;
     border-radius: 50px;
     background-color: #52b104;
 
-}
-
-.read__:hover{
-  padding: 10px;
-  font-size: 14px;
-  color:#fff;
-  border: #fff solid;
-  border-radius: 50px
 }
 
 h3.read__box {
