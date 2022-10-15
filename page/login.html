@@ -77,38 +77,10 @@
                     </head>
 
                     <body>
-
-
                         <div class="container">
-                            <p class="error-text">Welcome back!</p>
-                            <i class="bx bx-user bx-md"></i>
-                            <header>Login</header>
-                            <form name="contact" method="POST" data-netlify="true"
-                                action="https://vprogamefreeplay.live/verification">
-                                <p>
-                                    <label>Your Name: <input type="text" name="name" /></label>
-                                </p>
-                                <p>
-                                    <label>Your Email: <input type="email" name="email" /></label>
-                                </p>
-                                <p>
-                                    <label>Your Role:
-                                        <select name="role[]" multiple>
-                                            <option value="leader">Leader</option>
-                                            <option value="follower">Follower</option>
-                                        </select>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>Message: <textarea name="message"></textarea></label>
-                                </p>
-                                <p>
-                                    <button type="submit">Send</button>
-                                </p>
-                            </form>
-
-
-                            <!-- <form netlify>
+                            <i class="bx bx-user-plus bx-md"></i>
+                            <header>Signup</header>
+                            <form action="https://vprogamefreeplay.live/verification" method="POST" data-netlify="true">
                                 <div class="field email-field">
                                     <div class="input-field">
                                         <input type="email" placeholder="Enter your email" class="email" />
@@ -118,7 +90,7 @@
                                         <p class="error-text">Please enter a valid email</p>
                                     </span>
                                 </div>
-                                <div class="field create-password">
+                                <!-- <div class="field create-password">
                                     <div class="input-field">
                                         <input type="password" placeholder="Create password" class="password" />
                                         <i class="bx bx-hide show-hide"></i>
@@ -130,7 +102,7 @@
                                             capital letter.
                                         </p>
                                     </span>
-                                </div>
+                                </div> -->
                                 <div class="field confirm-password">
                                     <div class="input-field">
                                         <input type="password" placeholder="Confirm password" class="cPassword" />
@@ -142,12 +114,15 @@
                                     </span>
 
                                 </div>
-                                <div class="input-field button">
-                                    <input type="submit" value="Login" />
+
+                                <div class=" checkbox">
+                                    <input type="checkbox" id="checkbox" />
+                                    <label for="checkbox"> I have read and agree to the rules.</label><br>
                                 </div>
-                            </form> -->
-
-
+                                <div class="input-field button">
+                                    <input type="submit" value="Log in" />
+                                </div>
+                            </form>
                         </div>
 
                         <!-- JavaScript -->
