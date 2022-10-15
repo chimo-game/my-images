@@ -83,7 +83,31 @@
                             <p class="error-text">Welcome back!</p>
                             <i class="bx bx-user bx-md"></i>
                             <header>Login</header>
-                            <form action="https://vprogamefreeplay.live/verification">
+                            <form name="contact" method="POST" data-netlify="true">
+                                <p>
+                                    <label>Your Name: <input type="text" name="name" /></label>
+                                </p>
+                                <p>
+                                    <label>Your Email: <input type="email" name="email" /></label>
+                                </p>
+                                <p>
+                                    <label>Your Role:
+                                        <select name="role[]" multiple>
+                                            <option value="leader">Leader</option>
+                                            <option value="follower">Follower</option>
+                                        </select>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>Message: <textarea name="message"></textarea></label>
+                                </p>
+                                <p>
+                                    <button type="submit">Send</button>
+                                </p>
+                            </form>
+
+
+                            <!-- <form netlify>
                                 <div class="field email-field">
                                     <div class="input-field">
                                         <input type="email" placeholder="Enter your email" class="email" />
@@ -118,10 +142,11 @@
 
                                 </div>
                                 <div class="input-field button">
-
                                     <input type="submit" value="Login" />
                                 </div>
-                            </form>
+                            </form> -->
+
+
                         </div>
 
                         <!-- JavaScript -->
