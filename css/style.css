@@ -42,12 +42,12 @@ body {
   font-weight: normal;
   overflow-x: hidden;
 
-  background-image: url("https://t3.ftcdn.net/jpg/02/67/64/28/360_F_267642803_KVtMHr0J2NLjWyDPidOkJVoyVCuHjoPu.jpg");
+  background-image: url("../images/game/assets/jason-leung-UMncYEfO9-U-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 300ms linear;
   -webkit-backdrop-filter: blur(7px);
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(20px);
   transition: all 300ms linear;
 } 
 
