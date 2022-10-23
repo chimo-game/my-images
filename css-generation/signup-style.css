@@ -4,8 +4,8 @@
 
   --fs-1: 7rem;
 
-  --color-green: #53c357;
-  --color-acent: #4caf50;
+  --color-green: #0d4bb6;
+  --color-acent: #1f69e9;
   --color-white: #fff;
   --curve: cubic-bezier(0.42, 0, 0.275, 1.155);
 }
@@ -22,13 +22,19 @@ body {
   align-items: center;
   justify-content: center;
   background-color: aliceblue;
-  background-image: url("https://images.unsplash.com/photo-1491644386567-d98960637850?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
-  background-repeat: no-repeat;
+  background-image: url("/images/game/assets/_jackpot-neon-signs-style/52_generated.jpg");
+  /* background-repeat: no-repeat; */
   background-size: cover;
   transition: all 200ms linear;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(6px);
   transition: all 200ms linear;
+}
+
+.container .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slider-image-wrapper {
@@ -51,10 +57,11 @@ label#checkbox {
 
 .container {
   position: relative;
-  max-width: 325px;
+  max-width: 400px;
   height: auto;
   width: 100%;
   padding: 8px 25px;
+  margin: 1rem;
   border-radius: 8px;
   background-color: #fff;
 }
@@ -74,13 +81,13 @@ form .input-field {
   width: 100%;
 }
 .input-field input {
+  padding: 10px;
   height: 70%;
   width: 100%;
   outline: none;
   border: none;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   margin-top: 10px;
-  padding: 4px 4px;
   border: 1px solid #d1d1d1;
 }
 .invalid input {
@@ -121,6 +128,7 @@ form .input-field {
   margin: 25px 0 6px;
 } */
 .button input {
+  padding: 0;
   color: #fff;
   font-size: 16px;
   font-weight: 400;
@@ -153,10 +161,11 @@ form .input-field {
 #promo {
   overflow: hidden;
   box-sizing: border-box;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   outline: none;
   position: relative;
   display: flex;
+  padding: 10px;
   margin-top: 10px;
   max-width: 561px;
   border: 1px solid rgb(209, 209, 209);

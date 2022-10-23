@@ -58,13 +58,13 @@
   justify-content: center;
   background-color: crimson !important;
   border: 1px solid crimson;
-  color: #fff !important;
+  color: rgb(255, 255, 255) !important;
   padding: 5px;
 }
 
 .text_box a {
   border-radius: 50px;
-  margin: 20px auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
   -webkit-box-align: center;
@@ -73,16 +73,16 @@
 }
 
 #button__block a:nth-child(1) {
-  background-color: #52b104;
+  background-color: #0d8f1c;
 }
 #button__block a:nth-child(2) {
-  background-color: #19cf84;
+  background-color: #0e65fa;
 }
 
 .copyright_section {
   margin: 0rem;
   padding: 1rem;
   position: relative;
-  background: #52b104;
+  background: #0d8f1c;
   color: #fff;
 }
