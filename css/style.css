@@ -156,21 +156,26 @@ body {
 
 .navigation {
   height: 70px;
-  background: #262626;
 }
 
 ion-icon {
   color: #fff;
 }
 
+.nav-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .brand {
-  position: absolute;
-  padding-left: 20px;
-  float: left;
+  display:flex;
+  justify-content: center;
+  align-items: center;
   line-height: 70px;
   text-transform: uppercase;
-  font-size: 1.4em;
+  font-size: 2.4em;
 }
 .brand a,
 .brand a:visited {
