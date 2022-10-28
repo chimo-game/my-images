@@ -29,7 +29,7 @@ body {
 
 .star {
   position: absolute;
-  animation: grow 6s infinite;
+  animation: grow 3s infinite;
   fill: var(--color-blue);
   opacity: 0;
 }
@@ -111,7 +111,7 @@ body {
 }
 .checkmark__background {
   fill: var(--color-blue);
-  animation: rotate 10s linear both infinite;
+  animation: rotate 5s linear both infinite;
 }
 
 @keyframes rotate {
