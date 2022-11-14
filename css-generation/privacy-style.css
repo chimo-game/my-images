@@ -1,0 +1,22 @@
+:root {
+  --color-blue: #0e65fa;
+  --color-white: #fff;
+  --curve: cubic-bezier(0.42, 0, 0.275, 1.155);
+  --ff-poppins: "Poppins", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--color-white);
+  font-family: var(--ff-poppins);
+  transition: all 200ms linear;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(6px);
+  transition: all 200ms linear;
+}
