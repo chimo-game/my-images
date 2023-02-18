@@ -51,7 +51,7 @@ h1{
   margin-bottom: 20px;
   /* padding: 2rem; */
   border: 0.2rem solid #fff;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   animation: flicker2 2.5s infinite alternate;     
 }
 
@@ -837,7 +837,7 @@ h4,h6{
   height: auto;
   background-size: 100%;
   /* padding-bottom: 40px; */
-  border-radius: 50px;
+  border-radius: 32px;
   background-repeat: no-repeat;
 }
 .image_7 {
