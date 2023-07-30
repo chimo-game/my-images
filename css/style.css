@@ -158,6 +158,10 @@ body {
   height: 70px;
 }
 
+.logo{
+  font-weight: 700;
+}
+
 ion-icon {
   color: #fff;
 }
